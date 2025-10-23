@@ -14,7 +14,7 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                 .foregroundStyle(.tint)
-            Text("My name is Justin. Welcome to my project!")
+            Text("My name is Justin, this is my dog Denver. Welcome to my project!")
         }
         .padding()
     }
