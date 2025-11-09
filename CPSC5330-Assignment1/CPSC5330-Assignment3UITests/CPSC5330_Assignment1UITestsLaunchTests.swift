@@ -1,13 +1,13 @@
 //
-//  CPSC5330_Assignment1UITestsLaunchTests.swift
-//  CPSC5330-Assignment1UITests
+//  CPSC5330_Assignment3UITestsLaunchTests.swift
+//  CPSC5330-Assignment3UITests
 //
-//  Created by Justin Farley on 10/22/25.
+//  Created by Justin Farley on 11/08/25.
 //
 
 import XCTest
 
-final class CPSC5330_Assignment1UITestsLaunchTests: XCTestCase {
+final class CPSC5330_Assignment3UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

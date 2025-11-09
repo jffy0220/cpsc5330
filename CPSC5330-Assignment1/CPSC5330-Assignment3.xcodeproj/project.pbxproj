@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD64AB7C2EA9C5B000C1ECBD /* CPSC5330-Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPSC5330-Assignment1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD64AB892EA9C5B100C1ECBD /* CPSC5330-Assignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPSC5330-Assignment1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD64AB932EA9C5B100C1ECBD /* CPSC5330-Assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPSC5330-Assignment1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD64AB7C2EA9C5B000C1ECBD /* CPSC5330-Assignment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPSC5330-Assignment3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD64AB892EA9C5B100C1ECBD /* CPSC5330-Assignment3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPSC5330-Assignment3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD64AB932EA9C5B100C1ECBD /* CPSC5330-Assignment3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPSC5330-Assignment3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FD64AB7E2EA9C5B000C1ECBD /* CPSC5330-Assignment1 */ = {
+		FD64AB7E2EA9C5B000C1ECBD /* CPSC5330-Assignment3 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "CPSC5330-Assignment1";
+			path = "CPSC5330-Assignment3";
 			sourceTree = "<group>";
 		};
-		FD64AB8C2EA9C5B100C1ECBD /* CPSC5330-Assignment1Tests */ = {
+		FD64AB8C2EA9C5B100C1ECBD /* CPSC5330-Assignment3Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "CPSC5330-Assignment1Tests";
+			path = "CPSC5330-Assignment3Tests";
 			sourceTree = "<group>";
 		};
-		FD64AB962EA9C5B100C1ECBD /* CPSC5330-Assignment1UITests */ = {
+		FD64AB962EA9C5B100C1ECBD /* CPSC5330-Assignment3UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "CPSC5330-Assignment1UITests";
+			path = "CPSC5330-Assignment3UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		FD64AB732EA9C5B000C1ECBD = {
 			isa = PBXGroup;
 			children = (
-				FD64AB7E2EA9C5B000C1ECBD /* CPSC5330-Assignment1 */,
-				FD64AB8C2EA9C5B100C1ECBD /* CPSC5330-Assignment1Tests */,
-				FD64AB962EA9C5B100C1ECBD /* CPSC5330-Assignment1UITests */,
+				FD64AB7E2EA9C5B000C1ECBD /* CPSC5330-Assignment3 */,
+				FD64AB8C2EA9C5B100C1ECBD /* CPSC5330-Assignment3Tests */,
+				FD64AB962EA9C5B100C1ECBD /* CPSC5330-Assignment3UITests */,
 				FD64AB7D2EA9C5B000C1ECBD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		FD64AB7D2EA9C5B000C1ECBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD64AB7C2EA9C5B000C1ECBD /* CPSC5330-Assignment1.app */,
-				FD64AB892EA9C5B100C1ECBD /* CPSC5330-Assignment1Tests.xctest */,
-				FD64AB932EA9C5B100C1ECBD /* CPSC5330-Assignment1UITests.xctest */,
+				FD64AB7C2EA9C5B000C1ECBD /* CPSC5330-Assignment3.app */,
+				FD64AB892EA9C5B100C1ECBD /* CPSC5330-Assignment3Tests.xctest */,
+				FD64AB932EA9C5B100C1ECBD /* CPSC5330-Assignment3UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD64AB7B2EA9C5B000C1ECBD /* CPSC5330-Assignment1 */ = {
+		FD64AB7B2EA9C5B000C1ECBD /* CPSC5330-Assignment3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD64AB9D2EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment1" */;
+			buildConfigurationList = FD64AB9D2EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment3" */;
 			buildPhases = (
 				FD64AB782EA9C5B000C1ECBD /* Sources */,
 				FD64AB792EA9C5B000C1ECBD /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FD64AB7E2EA9C5B000C1ECBD /* CPSC5330-Assignment1 */,
+				FD64AB7E2EA9C5B000C1ECBD /* CPSC5330-Assignment3 */,
 			);
-			name = "CPSC5330-Assignment1";
+			name = "CPSC5330-Assignment3";
 			packageProductDependencies = (
 			);
 			productName = "CPSC5330-Assignment1";
-			productReference = FD64AB7C2EA9C5B000C1ECBD /* CPSC5330-Assignment1.app */;
+			productReference = FD64AB7C2EA9C5B000C1ECBD /* CPSC5330-Assignment3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FD64AB882EA9C5B100C1ECBD /* CPSC5330-Assignment1Tests */ = {
+		FD64AB882EA9C5B100C1ECBD /* CPSC5330-Assignment3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD64ABA02EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment1Tests" */;
+			buildConfigurationList = FD64ABA02EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment3Tests" */;
 			buildPhases = (
 				FD64AB852EA9C5B100C1ECBD /* Sources */,
 				FD64AB862EA9C5B100C1ECBD /* Frameworks */,
@@ -131,18 +131,18 @@
 				FD64AB8B2EA9C5B100C1ECBD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FD64AB8C2EA9C5B100C1ECBD /* CPSC5330-Assignment1Tests */,
+				FD64AB8C2EA9C5B100C1ECBD /* CPSC5330-Assignment3Tests */,
 			);
-			name = "CPSC5330-Assignment1Tests";
+			name = "CPSC5330-Assignment3Tests";
 			packageProductDependencies = (
 			);
 			productName = "CPSC5330-Assignment1Tests";
-			productReference = FD64AB892EA9C5B100C1ECBD /* CPSC5330-Assignment1Tests.xctest */;
+			productReference = FD64AB892EA9C5B100C1ECBD /* CPSC5330-Assignment3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FD64AB922EA9C5B100C1ECBD /* CPSC5330-Assignment1UITests */ = {
+		FD64AB922EA9C5B100C1ECBD /* CPSC5330-Assignment3UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD64ABA32EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment1UITests" */;
+			buildConfigurationList = FD64ABA32EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment3UITests" */;
 			buildPhases = (
 				FD64AB8F2EA9C5B100C1ECBD /* Sources */,
 				FD64AB902EA9C5B100C1ECBD /* Frameworks */,
@@ -154,13 +154,13 @@
 				FD64AB952EA9C5B100C1ECBD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FD64AB962EA9C5B100C1ECBD /* CPSC5330-Assignment1UITests */,
+				FD64AB962EA9C5B100C1ECBD /* CPSC5330-Assignment3UITests */,
 			);
-			name = "CPSC5330-Assignment1UITests";
+			name = "CPSC5330-Assignment3UITests";
 			packageProductDependencies = (
 			);
 			productName = "CPSC5330-Assignment1UITests";
-			productReference = FD64AB932EA9C5B100C1ECBD /* CPSC5330-Assignment1UITests.xctest */;
+			productReference = FD64AB932EA9C5B100C1ECBD /* CPSC5330-Assignment3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD64AB772EA9C5B000C1ECBD /* Build configuration list for PBXProject "CPSC5330-Assignment1" */;
+			buildConfigurationList = FD64AB772EA9C5B000C1ECBD /* Build configuration list for PBXProject "CPSC5330-Assignment3" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD64AB7B2EA9C5B000C1ECBD /* CPSC5330-Assignment1 */,
-				FD64AB882EA9C5B100C1ECBD /* CPSC5330-Assignment1Tests */,
-				FD64AB922EA9C5B100C1ECBD /* CPSC5330-Assignment1UITests */,
+				FD64AB7B2EA9C5B000C1ECBD /* CPSC5330-Assignment3 */,
+				FD64AB882EA9C5B100C1ECBD /* CPSC5330-Assignment3Tests */,
+				FD64AB922EA9C5B100C1ECBD /* CPSC5330-Assignment3UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		FD64AB8B2EA9C5B100C1ECBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD64AB7B2EA9C5B000C1ECBD /* CPSC5330-Assignment1 */;
+			target = FD64AB7B2EA9C5B000C1ECBD /* CPSC5330-Assignment3 */;
 			targetProxy = FD64AB8A2EA9C5B100C1ECBD /* PBXContainerItemProxy */;
 		};
 		FD64AB952EA9C5B100C1ECBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD64AB7B2EA9C5B000C1ECBD /* CPSC5330-Assignment1 */;
+			target = FD64AB7B2EA9C5B000C1ECBD /* CPSC5330-Assignment3 */;
 			targetProxy = FD64AB942EA9C5B100C1ECBD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +456,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPSC5330-Assignment1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CPSC5330-Assignment1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPSC5330-Assignment3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CPSC5330-Assignment3";
 			};
 			name = Debug;
 		};
@@ -474,7 +474,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPSC5330-Assignment1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CPSC5330-Assignment1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPSC5330-Assignment3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CPSC5330-Assignment3";
 			};
 			name = Release;
 		};
@@ -513,7 +513,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD64AB772EA9C5B000C1ECBD /* Build configuration list for PBXProject "CPSC5330-Assignment1" */ = {
+		FD64AB772EA9C5B000C1ECBD /* Build configuration list for PBXProject "CPSC5330-Assignment3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD64AB9B2EA9C5B100C1ECBD /* Debug */,
@@ -522,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD64AB9D2EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment1" */ = {
+		FD64AB9D2EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD64AB9E2EA9C5B100C1ECBD /* Debug */,
@@ -531,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD64ABA02EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment1Tests" */ = {
+		FD64ABA02EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD64ABA12EA9C5B100C1ECBD /* Debug */,
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD64ABA32EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment1UITests" */ = {
+		FD64ABA32EA9C5B100C1ECBD /* Build configuration list for PBXNativeTarget "CPSC5330-Assignment3UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD64ABA42EA9C5B100C1ECBD /* Debug */,

@@ -1,13 +1,13 @@
 //
-//  CPSC5330_Assignment1UITests.swift
-//  CPSC5330-Assignment1UITests
+//  CPSC5330_Assignment3UITests.swift
+//  CPSC5330-Assignment3UITests
 //
-//  Created by Justin Farley on 10/22/25.
+//  Created by Justin Farley on 11/08/25.
 //
 
 import XCTest
 
-final class CPSC5330_Assignment1UITests: XCTestCase {
+final class CPSC5330_Assignment3UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
