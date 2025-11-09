@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    // Button layout (rows)
     private let buttons: [[String]] = [
         ["AC", "+/-", "%", "÷"],
         ["7", "8", "9", "×"],
@@ -38,8 +37,6 @@ struct ContentView: View {
                 .padding(.top, 20)
 
                 Spacer()
-
-                // MARK: - Keypad
                 VStack(spacing: 10) {
                     ForEach(buttons, id: \.self) { row in
                         HStack(spacing: 10) {
