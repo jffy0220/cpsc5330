@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FD64AB7B2EA9C5B000C1ECBD"
-               BuildableName = "CPSC5330-Assignment3.app"
-               BlueprintName = "CPSC5330-Assignment3"
-               ReferencedContainer = "container:CPSC5330-Assignment3.xcodeproj">
+               BuildableName = "CPSC5330-Assignment4.app"
+               BlueprintName = "CPSC5330-Assignment4"
+               ReferencedContainer = "container:CPSC5330-Assignment4.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FD64AB882EA9C5B100C1ECBD"
-               BuildableName = "CPSC5330-Assignment3Tests.xctest"
-               BlueprintName = "CPSC5330-Assignment3Tests"
-               ReferencedContainer = "container:CPSC5330-Assignment3.xcodeproj">
+               BuildableName = "CPSC5330-Assignment4Tests.xctest"
+               BlueprintName = "CPSC5330-Assignment4Tests"
+               ReferencedContainer = "container:CPSC5330-Assignment4.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FD64AB922EA9C5B100C1ECBD"
-               BuildableName = "CPSC5330-Assignment3UITests.xctest"
-               BlueprintName = "CPSC5330-Assignment3UITests"
-               ReferencedContainer = "container:CPSC5330-Assignment3.xcodeproj">
+               BuildableName = "CPSC5330-Assignment4UITests.xctest"
+               BlueprintName = "CPSC5330-Assignment4UITests"
+               ReferencedContainer = "container:CPSC5330-Assignment4.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD64AB7B2EA9C5B000C1ECBD"
-            BuildableName = "CPSC5330-Assignment3.app"
-            BlueprintName = "CPSC5330-Assignment3"
-            ReferencedContainer = "container:CPSC5330-Assignment3.xcodeproj">
+            BuildableName = "CPSC5330-Assignment4.app"
+            BlueprintName = "CPSC5330-Assignment4"
+            ReferencedContainer = "container:CPSC5330-Assignment4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD64AB7B2EA9C5B000C1ECBD"
-            BuildableName = "CPSC5330-Assignment3.app"
-            BlueprintName = "CPSC5330-Assignment3"
-            ReferencedContainer = "container:CPSC5330-Assignment3.xcodeproj">
+            BuildableName = "CPSC5330-Assignment4.app"
+            BlueprintName = "CPSC5330-Assignment4"
+            ReferencedContainer = "container:CPSC5330-Assignment4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
