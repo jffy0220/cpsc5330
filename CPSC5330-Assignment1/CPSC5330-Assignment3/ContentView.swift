@@ -1,78 +1,88 @@
 //
 //  ContentView.swift
-//  CPSC5330-Assignment3
+//  CPSC5330-Assignment4
 //
-//  Created by Justin Farley on 11/8/25.
+//  Created by Justin Farley on 11/16/25.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    private let buttons: [[String]] = [
-        ["AC", "+/-", "%", "÷"],
-        ["7", "8", "9", "×"],
-        ["4", "5", "6", "−"],
-        ["1", "2", "3", "+"],
-        ["0", ".", "="]
-    ]
+    @State private var moodValue: Double = 50
+    @State private var moodDescription: String = "Neutral 😐"
+    @State private var selectedDate: Date = Date()
+    @State private var savedMood: String = ""
 
     var body: some View {
-        GeometryReader { geo in
-            VStack(spacing: 12) {
-                VStack(alignment: .trailing, spacing: 8) {
-                    Text("13×20=")
-                        .font(.system(size: 24, weight: .medium))
-                        .foregroundColor(.gray)
-                    Text("260")
-                        .font(.system(size: 64, weight: .bold))
-                        .minimumScaleFactor(0.5)
-                        .lineLimit(1)
-                }
-                .padding()
-                .frame(maxWidth: .infinity, alignment: .trailing)
-                .background(Color(.systemGray6))
-                .cornerRadius(16)
-                .shadow(radius: 2)
+        VStack(spacing: 25) {
+            
+            Text("Select Your Mood")
+                .font(.title2)
+                .bold()
+            
+            Slider(value: $moodValue, in: 0...100, step: 1)
                 .padding(.horizontal)
-                .padding(.top, 20)
+                .onChange(of: moodValue) { _, _ in
+                    updateMoodDescription()
+                }
 
-                Spacer()
-                VStack(spacing: 10) {
-                    ForEach(buttons, id: \.self) { row in
-                        HStack(spacing: 10) {
-                            ForEach(row, id: \.self) { label in
-                                Button(action: {}) {
-                                    Text(label)
-                                        .font(.system(size: 28, weight: .semibold))
-                                        .frame(maxWidth: label == "0" ? geo.size.width * 0.45 : .infinity,
-                                               maxHeight: geo.size.width * 0.18)
-                                        .background(buttonColor(label))
-                                        .foregroundColor(.white)
-                                        .cornerRadius(geo.size.width * 0.045)
-                                }
-                            }
-                        }
-                    }
-                }
-                .padding(.horizontal)
-                .padding(.bottom)
+            Text(moodDescription)
+                .font(.title)
+                .bold()
+                .padding(.bottom, 20)
+            
+            VStack(spacing: 8) {
+                Text("Choose Date:")
+                    .font(.headline)
+                DatePicker("", selection: $selectedDate, displayedComponents: .date)
+                    .labelsHidden()
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color.black.edgesIgnoringSafeArea(.all))
+
+            Button(action: saveMood) {
+                Text("Save Mood")
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
+            .padding(.horizontal)
+
+            if !savedMood.isEmpty {
+                Text(savedMood)
+                    .font(.title3)
+                    .padding(.top, 20)
+            }
+
+            Spacer()
+        }
+        .padding()
+    }
+
+    private func updateMoodDescription() {
+        switch moodValue {
+        case 0...20:
+            moodDescription = "Very Sad 😢"
+        case 21...40:
+            moodDescription = "Sad 🙁"
+        case 41...60:
+            moodDescription = "Neutral 😐"
+        case 61...80:
+            moodDescription = "Happy 🙂"
+        default:
+            moodDescription = "Very Happy 😄"
         }
     }
-    private func buttonColor(_ label: String) -> Color {
-        if ["÷", "×", "−", "+", "="].contains(label) {
-            return Color.orange
-        } else if ["AC", "+/-", "%"].contains(label) {
-            return Color(.systemGray)
-        } else {
-            return Color(.darkGray)
-        }
+
+    private func saveMood() {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMMM d"
+        let dateString = formatter.string(from: selectedDate)
+        savedMood = "On \(dateString), you felt \(moodDescription.split(separator: " ").last ?? "🙂")"
     }
 }
 
 #Preview {
     ContentView()
 }
-
