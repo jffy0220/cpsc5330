@@ -13,7 +13,7 @@ struct ModelNode: Identifiable {
     let choices: [Choice]
 }
 
-struct Choice {
+struct Choice: Identifiable {
     let title: String
     let nextNodeID: String?   // nil = ending
     let isSuccessEnding: Bool

@@ -17,8 +17,10 @@ class GameController: ObservableObject {
         setupGame()
         currentNode = nodes["start"]
     }
-
-    // -------------------------------------
+    
+    func restart() {
+        currentNode = nodes["start"]
+    }
 
     func choose(_ choice: Choice) {
         if let nextID = choice.nextNodeID {
@@ -33,8 +35,6 @@ class GameController: ObservableObject {
             )
         }
     }
-
-    // -------------------------------------
 
     private func setupGame() {
 
@@ -62,7 +62,7 @@ class GameController: ObservableObject {
             ]
         )
 
-        nodes["eatfish"] = ModelNode(
+        nodes["eatFish"] = ModelNode(
             text: "You eat the fish, raw. How will you wash it down?’",
             choices: [
                 Choice(title: "Drink from your canteen.", nextNodeID: "waterCanteen", isSuccessEnding: false),
